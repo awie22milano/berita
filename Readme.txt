@@ -1,10 +1,13 @@
-versi 1.0.1
-1. chr_driver.py -> untuk menginstal chrome driver
-2. scraping_pegi -> untuk melakukan scraping web pegipegi.com
-3. hotel.csv -> contah data hasil scrape
-4. folder hotel -> core program API (PHP)
---------------------------------------------
+API Berita BPS versi 1.0.1
+1. Instalasi Database
+   - Buat Database berita_bps
+   - Import file berita_bps.sql ke dalam database
 
-versi 1.1.0
-5. penambahan token/API key untuk mengakses data menggunakan library JWT (JSON Web Token)
-6. menu sign up user untuk mendapatkan token
+2. Lakukan Scraping Data
+   - Resource dan Langkah2 detailnya ada di folder scraping
+
+3. Copi File-file lainnya ke dalam server
+   - Folder config : berisi Konfigurasi Database dan Sistem
+   - Folder models : berisi Model pengaksesan ke database
+   - Folder libs : Berisi Library JWT (JSON Web Token)
+   - Folder V1 : Berisi API berita bps
